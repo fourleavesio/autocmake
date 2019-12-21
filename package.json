@@ -1,0 +1,19 @@
+{
+  "name": "autocmake",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "description": "Cmake generator for C/C++",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeffrey Moon",
+  "license": "MIT",
+  "bin": {
+    "autocmake": "src/cli.js"
+  },
+  "dependencies": {
+    "recursive-readdir": "^2.2.2"
+  }
+}
