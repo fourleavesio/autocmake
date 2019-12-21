@@ -1,3 +1,3 @@
-import fileScanner from './file-scanner';
+let fileScanner = require('./file-scanner');
 
 fileScanner.getAllDirectoryFiles();
