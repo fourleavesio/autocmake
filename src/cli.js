@@ -1,6 +1,6 @@
-import { readFileSync } from 'fs';
-import readdir from 'recursive-readdir';
-import { extname } from 'path';
+const fs = require('fs');
+const readaddr = require('recursive-readdir');
+const path = require('path');
 
 const exts = [
   '.cc',
