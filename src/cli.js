@@ -1,5 +1,5 @@
 const fs = require('fs');
-const readaddr = require('recursive-readdir');
+const readdir = require('recursive-readdir');
 const path = require('path');
 
 const exts = [
@@ -22,7 +22,7 @@ function getAllDirectoryFiles() {
 }
 
 function fileSelector(file, stats) {
-  const ext = extname(file);
+  const ext = path.extname(file);
   return !(exts.includes(ext));
 }
 
