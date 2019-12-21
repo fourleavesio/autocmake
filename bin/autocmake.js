@@ -1,1 +1,1 @@
-require('../src/cli')
+console.log('Hello world');
