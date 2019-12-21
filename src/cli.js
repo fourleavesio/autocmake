@@ -27,7 +27,7 @@ function fileSelector(file, stats) {
 }
 
 
-export default {
+module.exports = {
   readConfig,
   getAllDirectoryFiles
 }
