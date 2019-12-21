@@ -1,3 +1,3 @@
-const fileScanner = require('./file-scanner').default;
+import fileScanner from './file-scanner';
 
 fileScanner.getAllDirectoryFiles();
