@@ -11,7 +11,7 @@
   "author": "Jeffrey Moon",
   "license": "MIT",
   "bin": {
-    "autocmake": "bin/cli.js"
+    "autocmake": "bin/autocmake.js"
   },
   "dependencies": {
     "recursive-readdir": "^2.2.2"
